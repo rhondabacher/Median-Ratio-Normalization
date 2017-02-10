@@ -22,6 +22,6 @@ To run, it requires the following packages: shiny
 To launch the app, in R run:
 > library(shiny)
 
-> runGitHub('rhondabacher/Median-Ratio Normalization')
+> runGitHub('rhondabacher/Median-Ratio-Normalization')
 
 <!-- ![Screenshot](https://github.com/rhondabacher/Oscillating-genes/blob/master/screenshot.png) -->

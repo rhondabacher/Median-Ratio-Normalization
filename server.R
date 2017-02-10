@@ -46,7 +46,7 @@ shinyServer(function(input, output, session) {
        Out = t(t(Data)/Sizes)
 
   
-   write.csv(Out, file=paste0(outdir,the.file$name,"_Normalized.csv"), quote=F) #write input 
+   write.csv(Out, file=paste0(outdir,strsplit(the.file$name,split=".", fixed=T)[[1]][1],"_Normalized.csv"), quote=F) #write input 
 
    print("Done Normalizing Data!")
    ARG = 1

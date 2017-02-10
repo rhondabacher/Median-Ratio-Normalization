@@ -15,13 +15,16 @@ This can be used to effectively normalized bulk RNA-seq data. For single cell RN
 To run, it requires the following packages: shiny
 
 > install.packages("shiny")
+
 > install.packages("shinyFiles")
 
 
 ### Run the app
 To launch the app, in R run:
 > library(shiny)
+
 > library(shinyFiles)
+
 > runGitHub('rhondabacher/Median-Ratio-Normalization')
 
 <!-- ![Screenshot](https://github.com/rhondabacher/Oscillating-genes/blob/master/screenshot.png) -->

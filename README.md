@@ -4,7 +4,7 @@
 The original description of the Median-Ratio normalization method is from Anders and Huber, 2010. 
 The implementation here is borrowed from the EBSeq R package.
 
-Input data must be a matrix of unnormalized expression in .txt or .csv format. 
+Input data must be a matrix of unnormalized expression in .txt or .csv format. The first column may be a matrix of gene/feature names, but all subsequent columns need to be numerical.
 
 This method estimates scale factors for each sample using stably expressed genes (genes with no zeros). For each sample,
 the scale factor is equal to the median of each gene's ratio to it's geometric mean. The geometric mean for each gene is calculated over all samples.

@@ -1,3 +1,5 @@
+options(shiny.maxRequestSize=3000*1024^2) 
+ 
 shinyServer(function(input, output, session) {
   
 	volumes <- c('home'="~")
